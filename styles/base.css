@@ -69,6 +69,8 @@ main {
 span {
   font-size: 28px;
   color: #003049;
+  font-weight: bold;
+  font-family: var(--heading-font);
 }
 .bandera {
   grid-row: 4;
