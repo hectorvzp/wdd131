@@ -7,44 +7,46 @@
   --paragraph-font: "roboto", serif;
 }
 header {
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   text-align: center;
   font-family: var(--heading-font);
- }
- html{
+}
+html {
   margin: 0;
   padding: 0;
-  max-height:100px;
- }
-h1{margin: 0;
+  max-height: 100px;
+}
+h1 {
+  margin: 0;
   padding: 8px;
   font-family: var(--heading-font);
 }
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: center;
   padding: 5px;
   gap: 15rem;
   font-size: 25px;
-  background-color:#003049;
+  background-color: #003049;
   font-family: var(--heading-font);
- }
- nav a {
+}
+nav a {
   color: #fdf0d5;
   text-decoration: none;
- }
- nav a:hover{
-  text-decoration: underline;}
- .card{
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.card {
   display: grid;
-  grid-template-columns: 850px auto ;
-  }
- img{
+  grid-template-columns: 850px auto;
+}
+img {
   max-width: 100%;
   height: 200px;
   object-fit: cover;
- }
- .card1{
+}
+.card1 {
   width: 700px;
   display: grid;
   border: 5px solid var(--primary-color);
@@ -52,16 +54,19 @@ nav{
   position: relative;
   margin-top: 20px;
   margin-left: 50px;
- 
- }
- .prici {
-font-size: 20px;
-grid-row: 2;
-text-align: center;
-padding: 30px;
-margin: 0;
 }
-.bandera{
+main {
+  background-color: var(--accent2-color);
+  padding-bottom: 20px;
+}
+.prici {
+  font-size: 20px;
+  grid-row: 2;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+.bandera {
   grid-row: 4;
   grid-column: 1/1;
   position: relative;
@@ -69,16 +74,15 @@ margin: 0;
   bottom: -50px;
   height: 170px;
   object-fit: cover;
-
 }
-#Final{
+#Final {
   grid-row: 4;
   grid-column: 1/1;
   align-self: flex-end;
   padding: 10px;
   margin-left: 120px;
 }
- .card2{
+.card2 {
   max-width: 690px;
   border: 5px solid var(--primary-color);
   border-radius: 10px;
@@ -86,56 +90,56 @@ margin: 0;
   margin-left: 50px;
   font-size: 20px;
   height: 570px;
- }
- .listaa{
-margin-top: 180px;
- }
- .about, .web{
+}
+.listaa {
+  margin-top: 180px;
+}
+.about,
+.web {
   background-color: var(--primary-color);
   text-align: center;
   font-size: 2rem;
   grid-column: 1/4;
   margin: 0;
   color: #fdf0d5;
- }
- .Bolivar{
-  grid-row:3 ;
+}
+.Bolivar {
+  grid-row: 3;
   text-align: center;
   grid-column: 1/4;
-  color:#003049;
+  color: #003049;
   font-size: 2rem;
   margin: 0;
   padding: 0;
- }
- .Bolivar::before{
+}
+.Bolivar::before {
   content: "";
   width: 550px;
   height: 3px;
- background-color: #003049;
+  background-color: #003049;
   position: absolute;
-  bottom:270px;
+  bottom: 270px;
   left: 80px;
- }
-.perfil{
-justify-self: end;
-grid-row: 2/2;
-padding: 10px;
-margin-right: 20px;
-
 }
-.otro{
-grid-column: 2;
-grid-row:4;
-padding: 10px;
-margin-right: 15px;
+.perfil {
+  justify-self: end;
+  grid-row: 2/2;
+  padding: 10px;
+  margin-right: 20px;
+}
+.otro {
+  grid-column: 2;
+  grid-row: 4;
+  padding: 10px;
+  margin-right: 15px;
 }
 
-footer{
- margin: 0;
- padding: 0;
- color: #d5d9fd;
- background-color: var(--primary-color);
- text-align: center;
- font-family: var(--paragraph-font);
- font-size: 20px;
+footer {
+  margin: 0;
+  padding: 0;
+  color: #d5d9fd;
+  background-color: var(--primary-color);
+  text-align: center;
+  font-family: var(--paragraph-font);
+  font-size: 20px;
 }
