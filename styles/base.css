@@ -66,6 +66,10 @@ main {
   padding: 30px;
   margin: 0;
 }
+span {
+  font-size: 28px;
+  color: #003049;
+}
 .bandera {
   grid-row: 4;
   grid-column: 1/1;
