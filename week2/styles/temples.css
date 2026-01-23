@@ -85,3 +85,8 @@ footer {
   background-color: var(--primary-color);
   text-align: center;
 }
+.nomes {
+  font-family: var(--paragraph-font);
+  text-align: center;
+  font-size: 5px;
+}

@@ -17,7 +17,7 @@
   }
   footer {
     font-size: 1.2rem;
-    margin-top: px;
+    margin-top: 10px;
   }
 }
 @media (min-width: 45rem) {
@@ -63,4 +63,8 @@
   #titulo {
     font-size: 30px;
   }
+}
+.nomes {
+  font-size: 25px;
+  margin-top: 30px;
 }
